@@ -1,0 +1,29 @@
+{
+  "name": "lingon-watch",
+  "description": "A watch plugin for Lingon",
+  "version": "0.0.1",
+  "main": "index",
+  "homepage": "https://github.com/nikek/lingon-watch",
+  "author": {
+    "name": "Niklas Ek",
+    "email": "ek.niklas@gmail.com",
+    "url": "http://niklasek.se"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nikek/lingon-watch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikek/lingon-watch/issues"
+  },
+  "dependencies": {
+    "lingon": "~0.5.3",
+    "gulp": "~3.5.6"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "lingon",
+    "watch"
+  ],
+  "license": "MIT"
+}
