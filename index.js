@@ -10,9 +10,9 @@ module.exports = function(lingon, config) {
 
   var watchFn = function(callback) {
     gulp.task('default', function(){
-      lingon.log("Go!");
+      lingon.log.info("Go!");
       gulp.watch(config.watchDir, function(){
-        lingon.log("Build triggered by watch");
+        lingon.log.info("Build triggered by watch");
         lingon.build({
           'callback': callback
         });
