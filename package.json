@@ -16,8 +16,10 @@
   "bugs": {
     "url": "https://github.com/nikek/lingon-watch/issues"
   },
+  "peerDependencies": {
+    "lingon": "^2.2.0"
+  },
   "dependencies": {
-    "lingon": "~0.5.3",
     "gulp": "~3.5.6"
   },
   "devDependencies": {},
